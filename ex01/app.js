@@ -70,3 +70,9 @@ var userDataTyped = {
     age: 30
 };
 // userData = {};
+var complex = {
+    data: [1, 2, 3, 4, 5],
+    output: function (all) {
+        return this.data;
+    }
+};

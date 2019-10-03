@@ -80,3 +80,12 @@ let userDataTyped: { name: string, age: number } = {
 };
 // userData = {};
 
+type Complex = { data: number[], output: (all: boolean) => number[] }
+
+let complex: Complex = {
+    data: [1,2,3,4,5],
+
+    output: function (all: boolean) {
+        return this.data;
+    }
+};
